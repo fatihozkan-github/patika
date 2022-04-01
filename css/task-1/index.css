@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  align-self: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(240, 235, 227);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-container {
+  margin: auto;
+}
+
+img {
+  border-radius: 20px;
+  margin: 12px 0px;
+  width: 30%;
+}
+
+.menu {
+  border-radius: 10px;
+  background: rgb(228, 161, 38);
+  margin: 12px 0px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.menu ul li {
+  float: left;
+  margin: 8px 12px;
+}
+
+.menu ul li a {
+  display: block;
+  width: 127.5px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  font: 15px Lucida Calligraphy;
+  color: #fff;
+  padding: 15px 0 0 0;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+  background: orange;
+  border-radius: 10px;
+}
