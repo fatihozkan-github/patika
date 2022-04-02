@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  margin: 0px 4px;
+}
+
+input {
+  width: 30%;
+}
+
+p {
+  margin: 0px;
+}
+
+.parag-with-margin {
+  margin: 12px;
+}
+
+.search-area {
+  background: rgb(238, 238, 238);
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+}
+
+.row-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 5;
+  margin: 2px;
+  background: rgb(126, 229, 218);
+  padding: 8px;
+}
+
+.row-item2 {
+  flex: 2;
+  margin: 2px;
+  background: rgb(112, 204, 194);
+  padding: 8px;
+}
+
+.row-item3 {
+  flex: 6;
+  margin: 2px;
+  background: rgb(98, 179, 170);
+}
